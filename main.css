@@ -1,36 +1,77 @@
 
+/* colores */
+:root {
+  --apricot: #e69477;
+  --ebony-clay: #27293b;
+  --ferra: #76525c;
+  --matrix: #ac5d56;
+  --fuzzy-wuzzy-brown: #c36656;
+  --apple-blossom: #a24b46;
+  --mulled-wine: #4b4b6c;
+  --brown-rust: #af543c;
+  --fiord: #4c546b;
+}
+
+
+
+/* toda la página */
 * {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
-  font-size: 7vw;
-  text-align: center;
-  margin: 1vw;
+
+/* navegación */
+.header {
+  padding: 2vw 0 10vw 0;
+  background-image: url(./sources/pexels-fabian-wiktor-3470481.jpg);
+  background-size: cover;
+  background-position: center; 
 }
 
-nav {
+.header nav {
   padding: 2vh;
 }
 
-nav ul {
+.header nav ul {
   display: flex;
   justify-content: left;
   align-items: center;
 }
 
-nav ul img {
+.header nav ul img {
   width: 3vw;
   border-radius: 50px;
-  margin-right: 3vw;
+  margin: 0 0.5vw 0 1vw;
 }
 
-nav ul li {
-  font-size: 1.5vw;
+.header nav ul span {
+  font-size: 2vw;
+  font-weight: 700;
+  margin: 0 1vw 0 0;
+  color: #fff;
+}
+
+.header nav ul li {
+  font-size: 1vw;
   margin: 1vw;
   text-decoration: none;
   list-style: none;
 }
 
+.header nav ul li a {
+  text-decoration: none;
+  color: #fff
+}
+
+.header h1 {
+  font-size: 7vw;
+  text-align: center;
+  margin: 10vw 1vw;
+  color: #fff;
+}
+
+.bodys {
+  background-color: var(--ebony-clay);
+}
