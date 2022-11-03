@@ -1,0 +1,36 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 7vw;
+  text-align: center;
+  margin: 1vw;
+}
+
+nav {
+  padding: 2vh;
+}
+
+nav ul {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+nav ul img {
+  width: 3vw;
+  border-radius: 50px;
+  margin-right: 3vw;
+}
+
+nav ul li {
+  font-size: 1.5vw;
+  margin: 1vw;
+  text-decoration: none;
+  list-style: none;
+}
+
