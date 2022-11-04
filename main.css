@@ -109,21 +109,95 @@
   padding: 2vw;
   border-radius: 20px;
   width: 70%;
+  margin: 1vw;
 }
 
 .bodys-item h4 {
   font-size: 2vw;
   font-weight: 500;
   text-align: left;
-  color: var(--ebony-clay);
+  color: var(--apricot);
   margin: 1vw 0;
 }
 
-.bodys-item {
+.bodys-item p {
   font-size: 1vw;
-  font-weight: 300;
+  font-weight: 500;
   text-align: left;
   margin: 1vw 0;
+  color: #fff;
 }
 
 
+
+#catedral {
+  background: linear-gradient(rgb(39, 41, 59, 0.5), rgb(39, 41, 59, 0.5)), url(./sources/catedral-de-leon-nicaragua.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+#isebas {
+  background: linear-gradient(rgb(39, 41, 59, 0.7), rgb(39, 41, 59, 0.7)), url(./sources/ruinas-de-san-sebastian-leon-nicaragua-visit-leon-nicaragua.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+#poneloya {
+  background: linear-gradient(rgb(39, 41, 59, 0.6), rgb(39, 41, 59, 0.6)), url(./sources/vista-aerea-poneloya-nicaragua-113968005.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+#laspe {
+  background: linear-gradient(rgb(39, 41, 59, 0.6), rgb(39, 41, 59, 0.6)), url(./sources/ES_0469.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+#cnegro {
+  background: linear-gradient(rgb(39, 41, 59, 0.6), rgb(39, 41, 59, 0.6)), url(./sources/20180206_110943.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+#casamu {
+  background: linear-gradient(rgb(39, 41, 59, 0.6), rgb(39, 41, 59, 0.6)), url(./sources/museo-archivo-ruben-dario0001.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+#museo {
+  background: linear-gradient(rgb(39, 41, 59, 0.6), rgb(39, 41, 59, 0.6)), url(./sources/leon-nicaragua-april-mosaics-museo-de-leyendas-y-tradiciones-museum-myths-traditions-nicarag-130828208.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+#parquezoolo {
+  background: linear-gradient(rgb(39, 41, 59, 0.7), rgb(39, 41, 59, 0.7)), url(./sources/cuat2.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+#parquecente {
+  background: linear-gradient(rgb(39, 41, 59, 0.6), rgb(39, 41, 59, 0.6)), url(./sources/atardecer-en-el-parque-centenario-ruben-dario-visit-leon-nicaragua.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+#sesteo {
+  background: linear-gradient(rgb(39, 41, 59, 0.6), rgb(39, 41, 59, 0.6)), url(./sources/el-sesteo-seen-from-the.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+#ruinasviejo {
+  background: linear-gradient(rgb(39, 41, 59, 0.7), rgb(39, 41, 59, 0.7)), url(./sources/Ruinas-de-Leon-Viejo-Nicaragua-12.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+#cancha23 {
+  background: linear-gradient(rgb(39, 41, 59, 0.8), rgb(39, 41, 59, 0.8)), url(./sources/mural-de-la-masacre-estudiantil-del-23-de-julio-de-1959_orig.webp);
+  background-position: center;
+  background-size: cover;
+}
