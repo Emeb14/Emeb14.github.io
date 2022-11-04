@@ -68,10 +68,62 @@
 .header h1 {
   font-size: 7vw;
   text-align: center;
-  margin: 10vw 1vw;
+  margin: 10vw 1vw 1vw 1vw;
+  color: #fff;
+}
+
+.header p {
+  font-size: 1.5vw;
+  text-align: center;
+  margin:  0 1vw 10vw 1vw;
   color: #fff;
 }
 
 .bodys {
   background-color: var(--ebony-clay);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
+.bodys h2 {
+  font-size: 5vw;
+  font-weight: 500;
+  text-align: left;
+  color: var(--apricot);
+  margin: 3vw 5vw;
+  width: 100%;
+}
+
+.bodys h3{
+  font-size: 3vw;
+  font-weight: 500;
+  text-align: left;
+  color: #fff;
+  margin: 3vw 5vw;
+  width: 100%;
+}
+
+.bodys-item {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2vw;
+  border-radius: 20px;
+  width: 70%;
+}
+
+.bodys-item h4 {
+  font-size: 2vw;
+  font-weight: 500;
+  text-align: left;
+  color: var(--ebony-clay);
+  margin: 1vw 0;
+}
+
+.bodys-item {
+  font-size: 1vw;
+  font-weight: 300;
+  text-align: left;
+  margin: 1vw 0;
+}
+
+
